@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "28d13f2efdddfde3ed0b3e84d67bf1c7",
+    "content-hash": "c7430584e50afdedda8befd17f86384c",
+    "packages": [
+        {
+            "name": "kjschubert/php-gis-wrapper",
+            "version": "v0.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kjschubert/PHP-GIS-Wrapper.git",
+                "reference": "5ce8328d1887c2df16745584df07045256eacf4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kjschubert/PHP-GIS-Wrapper/zipball/5ce8328d1887c2df16745584df07045256eacf4c",
+                "reference": "5ce8328d1887c2df16745584df07045256eacf4c",
+                "shasum": ""
+            },
+            "require": {
+                "lib-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GISwrapper\\": "src/",
+                    "GISwrapper\\Providers\\": "providers/"
+                },
+                "files": [
+                    "src/Exceptions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Karl Johann Schubert",
+                    "email": "karljohann@familieschubi.de"
+                }
+            ],
+            "description": "PHP library to connect your projects with AIESEC's Global Information System",
+            "time": "2017-02-24 22:40:17"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
